@@ -1,0 +1,16 @@
+Term ID,Card Type,Category,Detail Text,Variable Rate,Fee Amount
+CC-901,Platinum Rewards,APR,"The standard Annual Percentage Rate (APR) for purchases is 19.99% to 29.99%, based on your creditworthiness. This APR will vary with the market based on the Prime Rate.",Yes,0
+CC-902,Platinum Rewards,Annual Fee,The annual fee is $495. This fee is billed on the first statement after account opening and annually thereafter. It includes access to airport lounges and travel concierge.,No,495
+CC-903,Student Saver,Late Payment,"If the minimum payment is not received by the due date, a late fee of up to $40 will be charged. Late payments may also trigger a penalty APR of 29.99% indefinitely.",No,40
+CC-904,All Cards,Foreign Transaction,A fee of 3% of each transaction in U.S. dollars applies to all purchases made outside the United States. This includes online purchases from foreign merchants.,No,3%
+CC-905,Gold Advantage,Balance Transfer,"0% Intro APR for the first 15 billing cycles for transfers made within 60 days of account opening. After that, the variable APR of 17.24% to 24.24% applies. Transfer fee is 5%.",Yes,5%
+CC-906,All Cards,Cash Advance,"Cash advances are taxed at a higher APR of 29.99% immediately (no grace period). The fee is either $10 or 5% of the amount of each cash advance, whichever is greater.",Yes,5%
+CC-907,Platinum Rewards,Reward Points,Earn 5 points per $1 spent on flights booked directly with airlines or via our travel portal. Earn 1 point per $1 on all other purchases. Points do not expire as long as the account is open.,No,0
+CC-908,Student Saver,Credit Limit,"Initial credit limits for student accounts typically range from $500 to $1,500. Increases are considered after 6 months of on-time payments.",No,0
+CC-909,All Cards,Fraud Liability,$0 Fraud Liability ensures you are not responsible for unauthorized charges if you report them promptly. You must notify us within 60 days of the statement date.,No,0
+CC-910,Gold Advantage,Welcome Bonus,"Earn 60,000 bonus points after you spend $4,000 on purchases in the first 3 months from account opening.",No,0
+CC-911,All Cards,Minimum Payment,"The minimum payment is calculated as 1% of the principal balance plus interest and fees, or $35, whichever is higher.",No,0
+CC-912,Platinum Rewards,Travel Insurance,"Trip Cancellation and Interruption insurance is included up to $10,000 per trip for non-refundable travel expenses paid with this card.",No,0
+CC-913,All Cards,Grace Period,Your due date is at least 25 days after the close of each billing cycle. We will not charge you interest on purchases if you pay your entire balance by the due date each month.,No,0
+CC-914,Student Saver,APR,"Intro APR of 0% for 6 months on purchases. Afterward, a variable APR of 15.24% to 25.24% applies.",Yes,0
+CC-915,All Cards,Dispute Process,"To dispute a charge, you must write to us at the address on your billing statement within 60 days. We will acknowledge your letter within 30 days.",No,0

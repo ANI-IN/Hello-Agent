@@ -1,0 +1,16 @@
+Doc ID,Feature,Plan Level,Description,Technical Limit,Related API
+S-501,API Rate Limit,Free,"Users on the Free tier are limited to 1,000 API requests per day. Requests exceeding this limit will return a 429 Too Many Requests error.",1000 req/day,GET /v1/data
+S-502,API Rate Limit,Enterprise,"Enterprise workspaces have a dedicated pool of 1,000,000 requests per day with burst handling capabilities up to 500 req/sec.",1M req/day,ALL
+S-503,User Roles,All,Admins have full access to billing and workspace settings. 'Members' can create and edit projects. 'Viewers' can only comment and view data. 'Guests' are restricted to specific shared projects.,N/A,POST /v1/users
+S-504,Data Export,Pro,"Data can be exported in CSV, JSON, or XML formats. Exports are generated asynchronously and a download link is emailed. Exports generally complete within 15 minutes.",5GB max,GET /v1/export
+S-505,Integrations,Pro,"Slack integration allows real-time notifications for task updates. To configure, go to Settings -> Integrations -> Slack and authorize the bot.",5 channels,Webhooks
+S-506,SSO,Enterprise,"Single Sign-On (SSO) is supported via SAML 2.0. We support Okta, OneLogin, and Azure AD. Enforced SSO can be toggled by the Workspace Owner.",N/A,SAML Config
+S-507,File Storage,Free,Free accounts are limited to 100MB of file storage per user. Files usually consist of attachments to tasks.,100MB,PUT /v1/files
+S-508,File Storage,Enterprise,Unlimited file storage is provided. Individual file upload size limit is 5GB.,Unlimited,PUT /v1/files
+S-509,Audit Logs,Enterprise,"Audit logs track all user activity including logins, file access, and permission changes. Logs are retained for 7 years to comply with regulatory standards.",7 Years,GET /v1/audit
+S-510,Custom Fields,Pro,"Users can add custom fields (Text, Number, Dropdown, Date) to tasks. A maximum of 50 custom fields per project is allowed to ensure performance stability.",50 fields,POST /v1/fields
+S-511,Webhooks,Pro,"Webhooks can be configured to trigger on TaskCreated, TaskUpdated, and TaskDeleted events. The payload is sent as a JSON object to the specified URL.",10 hooks,POST /v1/webhooks
+S-512,Support,Free,Support is provided via community forums and email with a response time target of 48 hours. No SLA is provided for free accounts.,N/A,N/A
+S-513,Support,Enterprise,24/7 Priority Phone and Email support with a dedicated Customer Success Manager. 1-hour response SLA for critical system outages.,1 hr SLA,N/A
+S-514,Encryption,All,All data is encrypted at rest using AES-256. Data in transit is encrypted via TLS 1.3. Keys are rotated every 90 days.,N/A,N/A
+S-515,Mobile App,All,The mobile app supports offline mode. Changes made offline will sync once the device reconnects to the internet. Conflict resolution uses a 'last-write-wins' strategy.,N/A,Sync Protocol
